@@ -2,3 +2,314 @@
 2022-08-26 21:45:05,551 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140130496788784}
 2022-08-26 21:57:16,000 : WARN  : main :  : Node : CSV Reader : 3:1 : Please specify a file
 2022-08-26 21:57:16,074 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140438124359888}
+2022-08-27 08:27:14,960 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140712397350928}
+2022-08-27 08:27:36,845 : WARN  : main :  : Node : Crosstab (local) : 3:8 : Auto guessing: using column "Product".
+2022-08-27 08:27:36,846 : WARN  : main :  : Node : Crosstab (local) : 3:8 : Auto guessing: using column "Age".
+2022-08-27 08:27:36,847 : WARN  : main :  : Node : Crosstab (local) : 3:8 : Auto guessing: using column "Education" for weights.
+2022-08-27 09:16:59,334 : WARN  : main :  : Node : CSV Reader : 4:1 : Please specify a file
+2022-08-27 10:15:56,462 : WARN  : main :  : Node : Crosstab (local) : 4:5 : Auto guessing: using column "Age".
+2022-08-27 10:15:56,463 : WARN  : main :  : Node : Crosstab (local) : 4:5 : Auto guessing: using column "Experience".
+2022-08-27 10:15:56,464 : WARN  : main :  : Node : Crosstab (local) : 4:5 : Auto guessing: using column "Income" for weights.
+2022-08-27 10:24:00,234 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {139756092010288}
+2022-08-27 10:25:29,905 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140224516590928}
+2022-08-27 10:29:56,154 : WARN  : main :  : Node : Crosstab (local) : 4:5 : Auto guessing: using column "Age".
+2022-08-27 10:29:56,155 : WARN  : main :  : Node : Crosstab (local) : 4:5 : Auto guessing: using column "Experience".
+2022-08-27 10:29:56,156 : WARN  : main :  : Node : Crosstab (local) : 4:5 : Auto guessing: using column "Income" for weights.
+2022-08-27 10:33:04,596 : WARN  : main :  : WrappedNodeDialog : Crosstab (local) : 4:5 : failed to apply settings: Cannot load settings into node; it is executing or has executing successors
+java.lang.IllegalStateException: Cannot load settings into node; it is executing or has executing successors
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2058)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1119)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:644)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$6.widgetSelected(WrappedNodeDialog.java:510)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:955)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:862)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:845)
+	at org.knime.workbench.editor2.actions.OpenDialogAction.runOnNodes(OpenDialogAction.java:147)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5941)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:183)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+2022-08-27 10:33:08,385 : WARN  : main :  : WrappedNodeDialog : Crosstab (local) : 4:5 : failed to apply settings: Cannot load settings into node; it is executing or has executing successors
+java.lang.IllegalStateException: Cannot load settings into node; it is executing or has executing successors
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2058)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1119)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:644)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:955)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:862)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:845)
+	at org.knime.workbench.editor2.actions.OpenDialogAction.runOnNodes(OpenDialogAction.java:147)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5941)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:183)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+2022-08-27 10:33:52,434 : WARN  : main :  : WrappedNodeDialog : Crosstab (local) : 4:5 : failed to apply settings: Cannot load settings into node; it is executing or has executing successors
+java.lang.IllegalStateException: Cannot load settings into node; it is executing or has executing successors
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2058)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1119)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:644)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$6.widgetSelected(WrappedNodeDialog.java:510)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:955)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:862)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:845)
+	at org.knime.workbench.editor2.actions.OpenDialogAction.runOnNodes(OpenDialogAction.java:147)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5941)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:183)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+2022-08-27 10:33:56,057 : WARN  : main :  : WrappedNodeDialog : Crosstab (local) : 4:5 : failed to apply settings: Cannot load settings into node; it is executing or has executing successors
+java.lang.IllegalStateException: Cannot load settings into node; it is executing or has executing successors
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2058)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1119)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:644)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:955)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:862)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:845)
+	at org.knime.workbench.editor2.actions.OpenDialogAction.runOnNodes(OpenDialogAction.java:147)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5941)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:183)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+2022-08-27 10:35:13,499 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140079763244384}
+2022-08-27 10:51:46,588 : WARN  : main :  : Node : Crosstab (local) : 6:6 : Auto guessing: using column "Age".
+2022-08-27 10:51:46,589 : WARN  : main :  : Node : Crosstab (local) : 6:6 : Auto guessing: using column "Experience".
+2022-08-27 10:51:46,590 : WARN  : main :  : Node : Crosstab (local) : 6:6 : Auto guessing: using column "Income" for weights.
+2022-08-27 11:10:28,519 : ERROR : main :  : RuleEngine2PortsNodeDialog : Rule Engine (Dictionary) : 6:8 : Error loading model settings
+java.lang.NullPointerException: Cannot invoke "org.knime.core.data.DataTableSpec.containsCompatibleType(java.lang.Class)" because "inSpec" is null
+	at org.knime.base.node.rules.engine.twoports.RuleEngine2PortsSimpleSettings.columnNameOrNull(RuleEngine2PortsSimpleSettings.java:156)
+	at org.knime.base.node.rules.engine.twoports.RuleEngine2PortsSimpleSettings.loadSettingsDialog(RuleEngine2PortsSimpleSettings.java:176)
+	at org.knime.base.node.rules.engine.twoports.RuleEngine2PortsSettings.loadSettingsDialog(RuleEngine2PortsSettings.java:500)
+	at org.knime.base.node.rules.engine.twoports.RuleEngine2PortsSimpleNodeDialog.loadSettingsFrom(RuleEngine2PortsSimpleNodeDialog.java:304)
+	at org.knime.base.node.rules.engine.twoports.RuleEngine2PortsNodeDialog.loadSettingsFrom(RuleEngine2PortsNodeDialog.java:361)
+	at org.knime.base.node.rules.engine.twoports.RuleEngine2PortsSimpleNodeDialog.loadSettingsFrom(RuleEngine2PortsSimpleNodeDialog.java:329)
+	at org.knime.core.node.DataAwareNodeDialogPane.callDerivedLoadSettingsFrom(DataAwareNodeDialogPane.java:79)
+	at org.knime.core.node.NodeDialogPane$3.run(NodeDialogPane.java:475)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2022-08-27 11:12:43,264 : WARN  : main :  : Node : Java Snippet : 6:9 : Compile with errors:
+Error in line 35: Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+Error in line 35: Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+
+2022-08-27 11:12:54,335 : WARN  : main :  : Node : Java Snippet : 6:9 : Compile with errors:
+Error in line 35: Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+Error in line 35: Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+
+2022-08-27 11:15:18,415 : ERROR : main :  : CEFWizardNodeView :  :  : Uncaught TypeError: Cannot read property 'colIndex' of undefined (source: file:///tmp/knimeViewContainer5774/org/knime/base/node/stats/dataexplorer/data-explorer.js; line: 927)
+2022-08-27 11:15:20,675 : ERROR : main :  : CEFWizardNodeView :  :  : Uncaught TypeError: Cannot read property 'colIndex' of undefined (source: file:///tmp/knimeViewContainer5774/org/knime/base/node/stats/dataexplorer/data-explorer.js; line: 927)
+2022-08-27 11:33:59,903 : WARN  : KNIME-Worker-23-Interactive Histogram (local) 6:12 :  : Node : Interactive Histogram (local) : 6:12 : Only the first 2500 of 2999 rows are displayed.
+2022-08-27 11:37:42,159 : WARN  : KNIME-Worker-29-Histogram 6:11 :  : Node : Histogram : 6:11 : The following data columns have missing values, which were ignored during the aggregation:
+    Experience [Binned] - 1 missing value(s)
+2022-08-27 11:37:55,133 : WARN  : KNIME-Worker-30-Histogram 6:11 :  : Node : Histogram : 6:11 : The following data columns have missing values, which were ignored during the aggregation:
+    Experience [Binned] - 1 missing value(s)
+2022-08-27 11:42:42,217 : WARN  : main :  : Node : Numeric Scorer : 6:13 : No columns selected for reference
+2022-08-27 11:58:51,981 : WARN  : main :  : Node : Rank Correlation : 6:13 : Auto configuration: Using all suitable columns (in total 10)
+2022-08-27 12:01:43,593 : WARN  : main :  : Node : Linear Correlation : 6:14 : Auto configuration: Using all suitable columns (in total 10)
+2022-08-27 12:52:39,101 : WARN  : main :  : Node : Crosstab (local) : 6:15 : Auto guessing: using column "Age".
+2022-08-27 12:52:39,101 : WARN  : main :  : Node : Crosstab (local) : 6:15 : Auto guessing: using column "Experience".
+2022-08-27 12:52:39,101 : WARN  : main :  : Node : Crosstab (local) : 6:15 : Auto guessing: using column "Income" for weights.
+2022-08-27 13:07:30,362 : WARN  : main :  : Node : Crosstab (local) : 6:16 : Auto guessing: using column "Age".
+2022-08-27 13:07:30,363 : WARN  : main :  : Node : Crosstab (local) : 6:16 : Auto guessing: using column "Experience".
+2022-08-27 13:07:30,363 : WARN  : main :  : Node : Crosstab (local) : 6:16 : Auto guessing: using column "Income" for weights.
+2022-08-27 13:38:14,813 : WARN  : KNIME-Worker-55-Scatter Plot 6:17 :  : Node : Scatter Plot : 6:17 : Only the first 2500 rows are displayed.
+2022-08-27 13:38:27,655 : WARN  : KNIME-Worker-56-Scatter Plot 6:17 :  : Node : Scatter Plot : 6:17 : Only the first 2500 rows are displayed.
+2022-08-27 13:39:10,559 : WARN  : KNIME-Worker-57-Scatter Plot 6:17 :  : Node : Scatter Plot : 6:17 : Only the first 2500 rows are displayed.
+2022-08-27 13:40:03,951 : WARN  : KNIME-Worker-58-Scatter Plot 6:17 :  : Node : Scatter Plot : 6:17 : Only the first 2500 rows are displayed.
+2022-08-27 13:40:34,608 : WARN  : KNIME-Worker-59-Scatter Plot 6:17 :  : Node : Scatter Plot : 6:17 : Only the first 2500 rows are displayed.
+2022-08-27 13:41:08,974 : WARN  : KNIME-Worker-60-Scatter Plot 6:17 :  : Node : Scatter Plot : 6:17 : Only the first 2500 rows are displayed.
+2022-08-27 14:16:13,206 : WARN  : main :  : Node : Crosstab (local) : 6:19 : Auto guessing: using column "Age".
+2022-08-27 14:16:13,207 : WARN  : main :  : Node : Crosstab (local) : 6:19 : Auto guessing: using column "Experience".
+2022-08-27 14:16:13,207 : WARN  : main :  : Node : Crosstab (local) : 6:19 : Auto guessing: using column "Income" for weights.
+2022-08-27 14:20:05,981 : WARN  : KNIME-Worker-62-Scatter Plot 6:19 :  : Node : Scatter Plot : 6:19 : Only the first 2500 rows are displayed.
+2022-08-27 14:29:46,201 : WARN  : KNIME-Worker-64-Scatter Plot 6:17 :  : Node : Scatter Plot : 6:17 : Only the first 2500 rows are displayed.
+2022-08-27 14:41:51,127 : WARN  : main :  : Node : Lift Chart : 6:20 : Auto-selected column Education_Category as response column.
+2022-08-27 14:41:51,128 : WARN  : main :  : Node : Lift Chart : 6:20 : Auto-selected column Age as probability column.
+2022-08-27 14:41:51,128 : WARN  : main :  : Node : Lift Chart : 6:20 : Response label must be set.
+2022-08-27 15:33:46,232 : WARN  : KNIME-Worker-81-Scatter Plot 6:20 :  : Node : Scatter Plot : 6:20 : Only the first 2500 rows are displayed.

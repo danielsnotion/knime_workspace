@@ -1,1 +1,2 @@
+/home/daniel/knime-workspace/Week2_1/Bank.csv
 /home/daniel/knime-workspace/Week2_1/CardioGoodFitness.csv

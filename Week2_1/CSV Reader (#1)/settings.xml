@@ -289,19 +289,19 @@
                                 <entry key="class" type="xstring" value="java.lang.Integer"/>
                             </config>
                         </config>
-                        <entry key="name" type="xstring" value="Fitness"/>
+                        <entry key="name" type="xstring" value="Fitness_Category"/>
                         <entry key="keep" type="xboolean" value="true"/>
                         <entry key="position" type="xint" value="6"/>
                         <config key="production_path">
-                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
-                            <entry key="_converter_src" type="xstring" value="java.lang.Integer"/>
-                            <entry key="_converter_dst" type="xstring" value="Number (integer)"/>
-                            <entry key="_converter_name" type="xstring" value="Integer"/>
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
                             <config key="_converter_config"/>
-                            <entry key="_producer" type="xstring" value="class java.lang.Integer-&gt;java.lang.Integer"/>
-                            <entry key="_producer_src" type="xstring" value="java.lang.Integer"/>
-                            <entry key="_producer_dst" type="xstring" value="java.lang.Integer"/>
-                            <entry key="_producer_name" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
                             <config key="_producer_config"/>
                         </config>
                     </config>
@@ -467,6 +467,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="55684ba4-7d7e-4d6a-a5ad-ac13b663e633"/>
+        <entry key="file_store_id" type="xstring" value="66a40c7e-8ce5-4deb-bd73-0e3ac1dcd0ba"/>
     </config>
 </config>
