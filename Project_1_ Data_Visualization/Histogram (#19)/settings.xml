@@ -97,7 +97,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="bin_force_int" type="xboolean" value="false"/>
+        <entry key="bin_force_int" type="xboolean" value="true"/>
         <config key="num_format_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -284,6 +284,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="629a4b34-83f8-4467-997a-b437406752a4"/>
+        <entry key="file_store_id" type="xstring" value="a62148a9-24ab-4259-8904-406ca2a37d5b"/>
     </config>
 </config>

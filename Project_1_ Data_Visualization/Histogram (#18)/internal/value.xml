@@ -5,7 +5,7 @@
         <entry key="mapClass" type="xstring" value="object"/>
         <entry key="key_0" type="xstring" value="catLabel"/>
         <entry key="class_0" type="xstring" value="java.lang.String"/>
-        <entry key="value_0" type="xstring" value=""/>
+        <entry key="value_0" type="xstring" value="CC Avg"/>
         <entry key="key_1" type="xstring" value="includeMissValCat"/>
         <entry key="class_1" type="xstring" value="java.lang.Boolean"/>
         <entry key="value_1" type="xboolean" value="true"/>
@@ -14,7 +14,7 @@
         <entry key="value_2" type="xboolean" value="false"/>
         <entry key="key_3" type="xstring" value="freqLabel"/>
         <entry key="class_3" type="xstring" value="java.lang.String"/>
-        <entry key="value_3" type="xstring" value=""/>
+        <entry key="value_3" type="xstring" value="Count"/>
         <entry key="key_4" type="xstring" value="subtitle"/>
         <entry key="class_4" type="xstring" value="java.lang.String"/>
         <entry key="value_4" type="xstring" value=""/>
@@ -23,7 +23,7 @@
         <entry key="value_5" type="xstring" value="Grouped"/>
         <entry key="key_6" type="xstring" value="title"/>
         <entry key="class_6" type="xstring" value="java.lang.String"/>
-        <entry key="value_6" type="xstring" value="Histogram"/>
+        <entry key="value_6" type="xstring" value="CCAvg"/>
         <entry key="key_7" type="xstring" value="subscribeToSelection"/>
         <entry key="class_7" type="xstring" value="java.lang.Boolean"/>
         <entry key="value_7" type="xboolean" value="true"/>
