@@ -1,0 +1,89 @@
+
+{
+    "version": "4.6.1.v202207182243",
+    "created": "2022-08-11 22:47",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.database.node.io.reader.DBReadNodeFactory#DB Reader",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory#CSV Reader",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 121,
+                "nrcreated": 1,
+                "successor": "org.knime.js.base.node.viz.plotter.scatterSelectionAppender.ScatterPlotNodeFactory#Scatter Plot"
+            },
+            {
+                "id": "org.knime.base.node.stats.dataexplorer.DataExplorerNodeFactory#Data Explorer",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 668,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.dynamic.js.v30.DynamicJSNodeFactory#Bar Chart",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 207,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.dynamic.js.v30.DynamicJSNodeFactory#Histogram",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 182,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.dynamic.js.v30.DynamicJSNodeFactory#Box Plot",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 287,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.dynamic.js.v30.DynamicJSNodeFactory#Conditional Box Plot",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 99,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.js.base.node.viz.plotter.scatterSelectionAppender.ScatterPlotNodeFactory#Scatter Plot",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 63,
+                "nrcreated": 1,
+                "successor": "n/a"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        }
+    },
+    "uptime": 317090,
+    "workflowsOpened": 6,
+    "remoteWorkflowsOpened": 0,
+    "columnarStorageWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "webUIPerspectiveSwitches": 0,
+    "launches": 4,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 1268362,
+    "crashes": 0,
+    "properlyShutDown": true
+}
