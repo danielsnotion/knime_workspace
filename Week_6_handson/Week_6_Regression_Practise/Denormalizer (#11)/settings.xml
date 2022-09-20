@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Normalization was not applied to 216 column(s) as they do not exist in the table: [IND_City 2, IND_City 1, NW_Low Price Airline, PBI_City 2, HRL_City 2, HRL_City 1, SY_Low Price Airline, WN_Low Price Airline, MKE_City 2, MKE_City 1, CVG_City 2, CVG_City 1, AS_Low Price Airline, ORD_City 1, ORF_City 1, ORD_City 2, ORF_City 2, GSP_City 1, PIT_City 1, PIT_City 2, ICT_City 2, ACY_City 1, B6_Low Price Airline, BOS_City 1, MAF_City 2, BOS_City 2, LAS_City 2, LAS_City 1, NK_Market Leader Airline, MDT_City 1, MDT_City 2, SRQ_City 2, OKC_City 1, MCO_City 2, MCO_City 1, OKC_City 2, HP_Market Leader Airline, CRP_City 1, SLC_City 2, ALB_City 1, SLC_City 1, TYS_City 1, F9_Market Leader Airline, GPT_City 1, GPT_City 2, CAE_City 1, MSY_City 1, MSY_City 2, TPA_City 2, TPA_City 1, Market Share Leader, Avg Weekly passangers, YX_Market Leader Airline, HPN_City 2, IAH_City 1, IAH_City 2, PWM_City 2, DL_Market Leader Airline, TLH_City 1, AS_Market Leader Airline, TLH_City 2, SYR_City 2, COS_City 1, DSM_City 2, DSM_City 1, SYR_City 1, BUF_City 2, BUF_City 1, GEG_City 2, AA_Low Price Airline, AA_Market Leader Airline, PVD_City 2, PVD_City 1, G4_Low Price Airline, Average Fare - Market Leader, G4_Market Leader Airline, TZ_Low Price Airline, MYR_City 1, CO_Low Price Airline, FL_Market Leader Airline, PDX_City 2, ATL_City 1, ATL_City 2, US_Low Price Airline, SFO_City 1, PDX_City 1, SEA_City 1, JAN_City 2, SEA_City 2, WN_Market Leader Airline, FL_Low Price Airline, TUL_City 2, DL_Low Price Airline, SFO_City 2, SJC_City 1, PHL_City 2, PHL_City 1, SMF_City 2, DAY_City 2, SMF_City 1, SJC_City 2, CAK_City 1, Market Share of Low Price Airline, RDU_City 1, RDU_City 2, HP_Low Price Airline, DAY_City 1, SDF_City 1, SDF_City 2, Distance, JAX_City 2, JAX_City 1, CO_Market Leader Airline, RIC_City 2, ONT_City 2, ONT_City 1, Fare of Low Price Airline, MSP_City 2, MSN_City 1, MSP_City 1, BUR_City 1, MHT_City 2, MHT_City 1, DEN_City 1, DEN_City 2, EUG_City 1, LAX_City 1, UA_Low Price Airline, LAX_City 2, LIT_City 1, LIT_City 2, OMA_City 1, OMA_City 2, US_Market Leader Airline, TUS_City 2, AUS_City 1, BNA_City 1, AUS_City 2, BNA_City 2, TZ_Market Leader Airline, FNT_City 2, PHF_City 2, PHF_City 1, DTW_City 2, DTW_City 1, LGB_City 1, SNA_City 1, LGB_City 2, SNA_City 2, ELP_City 2, ELP_City 1, STL_City 1, STL_City 2, GSO_City 1, GSO_City 2, GRR_City 1, NK_Low Price Airline, FNT_City 1, CLE_City 2, AX_Low Price Airline, CLE_City 1, CHS_City 1, ISP_City 2, F9_Low Price Airline, RNO_City 2, ISP_City 1, RNO_City 1, MEM_City 1, SAT_City 1, LGA_City 2, MEM_City 2, LGA_City 1, SAT_City 2, SAV_City 2, IAD_City 1, UA_Market Leader Airline, SAN_City 2, LBB_City 2, IAD_City 2, SAN_City 1, B6_Market Leader Airline, CLT_City 2, MIA_City 2, CLT_City 1, MIA_City 1, PHX_City 2, ROC_City 2, BWI_City 2, ROC_City 1, YX_Low Price Airline, DFW_City 2, DFW_City 1, PHX_City 1, BDL_City 1, BDL_City 2, BWI_City 1, MCI_City 1, MCI_City 2, PNS_City 2, BOI_City 1, OAK_City 2, AQ_Low Price Airline, ABQ_City 1, OAK_City 1, PSP_City 1, AMA_City 1, FLL_City 2, FLL_City 1, CMH_City 1, RSW_City 2, RSW_City 1, NW_Market Leader Airline, CMH_City 2, BTV_City 1, BHM_City 2, BHM_City 1]"/>
+    </config>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.normalize.NormalizerDeNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Denormalizer"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.6.1.v202207182243"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.6.1.v202207182243"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Denormalizer"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 300, Cols: 1"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="f50a1760-dbe4-414c-808e-393fcff904ff"/>
+    </config>
+</config>
