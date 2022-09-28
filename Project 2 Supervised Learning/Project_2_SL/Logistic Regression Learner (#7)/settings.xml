@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="target" type="xstring" value="Churn"/>
+        <config key="column-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="68"/>
+                <entry key="0" type="xstring" value="Account Length"/>
+                <entry key="1" type="xstring" value="Area Code"/>
+                <entry key="2" type="xstring" value="Num of Voice mail Messages"/>
+                <entry key="3" type="xstring" value="Total Day Minutes"/>
+                <entry key="4" type="xstring" value="Total Day Calls"/>
+                <entry key="5" type="xstring" value="Total day Charge"/>
+                <entry key="6" type="xstring" value="Total Eve Minutes"/>
+                <entry key="7" type="xstring" value="Total Eve Calls"/>
+                <entry key="8" type="xstring" value="Total Eve Charge"/>
+                <entry key="9" type="xstring" value="Total Night Minutes"/>
+                <entry key="10" type="xstring" value="Total Night Calls"/>
+                <entry key="11" type="xstring" value="Total Night Charge"/>
+                <entry key="12" type="xstring" value="Total International Minutes"/>
+                <entry key="13" type="xstring" value="Total Intl  Calls"/>
+                <entry key="14" type="xstring" value="Total Intl Charge"/>
+                <entry key="15" type="xstring" value="Number Customer Service calls"/>
+                <entry key="16" type="xstring" value="KS_State"/>
+                <entry key="17" type="xstring" value="OH_State"/>
+                <entry key="18" type="xstring" value="NJ_State"/>
+                <entry key="19" type="xstring" value="OK_State"/>
+                <entry key="20" type="xstring" value="AL_State"/>
+                <entry key="21" type="xstring" value="MA_State"/>
+                <entry key="22" type="xstring" value="MO_State"/>
+                <entry key="23" type="xstring" value="LA_State"/>
+                <entry key="24" type="xstring" value="WV_State"/>
+                <entry key="25" type="xstring" value="IN_State"/>
+                <entry key="26" type="xstring" value="RI_State"/>
+                <entry key="27" type="xstring" value="IA_State"/>
+                <entry key="28" type="xstring" value="MT_State"/>
+                <entry key="29" type="xstring" value="NY_State"/>
+                <entry key="30" type="xstring" value="ID_State"/>
+                <entry key="31" type="xstring" value="VT_State"/>
+                <entry key="32" type="xstring" value="VA_State"/>
+                <entry key="33" type="xstring" value="TX_State"/>
+                <entry key="34" type="xstring" value="FL_State"/>
+                <entry key="35" type="xstring" value="CO_State"/>
+                <entry key="36" type="xstring" value="AZ_State"/>
+                <entry key="37" type="xstring" value="SC_State"/>
+                <entry key="38" type="xstring" value="NE_State"/>
+                <entry key="39" type="xstring" value="WY_State"/>
+                <entry key="40" type="xstring" value="HI_State"/>
+                <entry key="41" type="xstring" value="IL_State"/>
+                <entry key="42" type="xstring" value="NH_State"/>
+                <entry key="43" type="xstring" value="GA_State"/>
+                <entry key="44" type="xstring" value="AK_State"/>
+                <entry key="45" type="xstring" value="MD_State"/>
+                <entry key="46" type="xstring" value="AR_State"/>
+                <entry key="47" type="xstring" value="WI_State"/>
+                <entry key="48" type="xstring" value="OR_State"/>
+                <entry key="49" type="xstring" value="MI_State"/>
+                <entry key="50" type="xstring" value="DE_State"/>
+                <entry key="51" type="xstring" value="UT_State"/>
+                <entry key="52" type="xstring" value="CA_State"/>
+                <entry key="53" type="xstring" value="MN_State"/>
+                <entry key="54" type="xstring" value="SD_State"/>
+                <entry key="55" type="xstring" value="NC_State"/>
+                <entry key="56" type="xstring" value="WA_State"/>
+                <entry key="57" type="xstring" value="NM_State"/>
+                <entry key="58" type="xstring" value="NV_State"/>
+                <entry key="59" type="xstring" value="DC_State"/>
+                <entry key="60" type="xstring" value="KY_State"/>
+                <entry key="61" type="xstring" value="ME_State"/>
+                <entry key="62" type="xstring" value="MS_State"/>
+                <entry key="63" type="xstring" value="TN_State"/>
+                <entry key="64" type="xstring" value="PA_State"/>
+                <entry key="65" type="xstring" value="CT_State"/>
+                <entry key="66" type="xstring" value="yes_International Plan"/>
+                <entry key="67" type="xstring" value="yes_Voice mail Plan"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+        <config key="targetReferenceCategory">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+            <config key="org.knime.core.data.def.StringCell">
+                <entry key="StringCell" type="xstring" value="True."/>
+            </config>
+        </config>
+        <entry key="useOrderFromTargetDomain" type="xboolean" value="false"/>
+        <entry key="useOrderFromFeatureDomain" type="xboolean" value="false"/>
+        <entry key="solver" type="xstring" value="IRLS"/>
+        <entry key="maxEpoch" type="xint" value="100"/>
+        <entry key="performLazy" type="xboolean" value="false"/>
+        <entry key="epsilon" type="xdouble" value="1.0E-5"/>
+        <entry key="learningRateStrategy" type="xstring" value="Fixed"/>
+        <entry key="prior" type="xstring" value="Uniform"/>
+        <entry key="stepSize" type="xdouble" value="0.1"/>
+        <entry key="priorVariance" type="xdouble" value="0.1"/>
+        <entry key="inMemory" type="xboolean" value="true"/>
+        <entry key="seed" type="xstring" isnull="true" value=""/>
+        <entry key="chunkSize" type="xint" value="10000"/>
+        <entry key="calcCoefficientStatistics" type="xboolean" value="true"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.mine.regression.logistic.learner4.LogRegLearnerNodeFactory4"/>
+    <entry key="node-name" type="xstring" value="Logistic Regression Learner"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.6.1.v202207182243"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.6.1.v202207182243"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Logistic Regression Learner"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="PMML document with version 4.2 and models: GeneralRegressionModel"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 69, Cols: 6"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
+        </config>
+        <config key="port_3">
+            <entry key="index" type="xint" value="3"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 2"/>
+            <entry key="port_dir_location" type="xstring" value="port_3"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="4fc95fff-a404-49eb-98cc-f0adf87d720b"/>
+    </config>
+</config>
