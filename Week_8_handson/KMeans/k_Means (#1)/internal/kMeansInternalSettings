@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+    <entry key="dimensions" type="xint" value="5"/>
+    <entry key="ignoredColumns" type="xint" value="0"/>
+    <config key="clusterCoverage">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="1"/>
+        <entry key="1" type="xint" value="6"/>
+        <entry key="2" type="xint" value="3"/>
+    </config>
+    <config key="kMeansCluster0">
+        <entry key="array-size" type="xint" value="5"/>
+        <entry key="0" type="xdouble" value="0.7471515853197555"/>
+        <entry key="1" type="xdouble" value="-0.5883484054145516"/>
+        <entry key="2" type="xdouble" value="-0.6210590034081188"/>
+        <entry key="3" type="xdouble" value="1.2149373196014361"/>
+        <entry key="4" type="xdouble" value="1.6366341767699426"/>
+    </config>
+    <config key="kMeansCluster1">
+        <entry key="array-size" type="xint" value="5"/>
+        <entry key="0" type="xdouble" value="-0.1795480553869179"/>
+        <entry key="1" type="xdouble" value="-0.49029033784545967"/>
+        <entry key="2" type="xdouble" value="0.06900655593423531"/>
+        <entry key="3" type="xdouble" value="-0.6678602809504973"/>
+        <entry key="4" type="xdouble" value="-0.10910894511799614"/>
+    </config>
+    <config key="kMeansCluster2">
+        <entry key="array-size" type="xint" value="5"/>
+        <entry key="0" type="xdouble" value="0.11004558233391748"/>
+        <entry key="1" type="xdouble" value="1.1766968108291047"/>
+        <entry key="2" type="xdouble" value="0.06900655593423537"/>
+        <entry key="3" type="xdouble" value="0.9307414553671821"/>
+        <entry key="4" type="xdouble" value="-0.32732683535398854"/>
+    </config>
+    <config key="FeatureNames">
+        <entry key="array-size" type="xint" value="5"/>
+        <entry key="0" type="xstring" value="Avg_Mthly_Spend"/>
+        <entry key="1" type="xstring" value="No_Of_Visits"/>
+        <entry key="2" type="xstring" value="Apparel_Items"/>
+        <entry key="3" type="xstring" value="FnV_Items"/>
+        <entry key="4" type="xstring" value="Staples_Items"/>
+    </config>
+</config>
