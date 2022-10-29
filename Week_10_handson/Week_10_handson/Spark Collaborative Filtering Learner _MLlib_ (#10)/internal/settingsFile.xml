@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="saveInternalsSettings">
+    <entry key="deleteRDDsOnReset" type="xboolean" value="true"/>
+    <config key="RDDs">
+        <config key="contextID0">
+            <config key="contextID">
+                <entry key="sparkContextID" type="xstring" value="sparkLocal://collabContext"/>
+            </config>
+            <config key="namedRDDs">
+                <entry key="array-size" type="xint" value="3"/>
+                <entry key="0" type="xstring" value="e64a94f1-cf79-4656-847f-7ab9fa6ec0a7"/>
+                <entry key="1" type="xstring" value="944124de-b8da-4f6d-8e29-7f69d3814b45"/>
+                <entry key="2" type="xstring" value="f957dc3a-00ab-4dd1-8cd0-54854ce53b64"/>
+            </config>
+        </config>
+    </config>
+</config>

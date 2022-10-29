@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="target" type="xstring" value="is_canceled"/>
+        <config key="column-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="150"/>
+                <entry key="0" type="xstring" value="arrival_date_year"/>
+                <entry key="1" type="xstring" value="arrival_date_day_of_month"/>
+                <entry key="2" type="xstring" value="stays_in_weekend_nights"/>
+                <entry key="3" type="xstring" value="stays_in_week_nights"/>
+                <entry key="4" type="xstring" value="adults"/>
+                <entry key="5" type="xstring" value="children"/>
+                <entry key="6" type="xstring" value="babies"/>
+                <entry key="7" type="xstring" value="is_repeated_guest"/>
+                <entry key="8" type="xstring" value="previous_cancellations"/>
+                <entry key="9" type="xstring" value="previous_bookings_not_canceled"/>
+                <entry key="10" type="xstring" value="days_in_waiting_list"/>
+                <entry key="11" type="xstring" value="required_car_parking_spaces"/>
+                <entry key="12" type="xstring" value="City Hotel_hotel"/>
+                <entry key="13" type="xstring" value="Resort Hotel_hotel"/>
+                <entry key="14" type="xstring" value="May_arrival_date_month"/>
+                <entry key="15" type="xstring" value="April_arrival_date_month"/>
+                <entry key="16" type="xstring" value="June_arrival_date_month"/>
+                <entry key="17" type="xstring" value="August_arrival_date_month"/>
+                <entry key="18" type="xstring" value="December_arrival_date_month"/>
+                <entry key="19" type="xstring" value="October_arrival_date_month"/>
+                <entry key="20" type="xstring" value="September_arrival_date_month"/>
+                <entry key="21" type="xstring" value="February_arrival_date_month"/>
+                <entry key="22" type="xstring" value="July_arrival_date_month"/>
+                <entry key="23" type="xstring" value="March_arrival_date_month"/>
+                <entry key="24" type="xstring" value="January_arrival_date_month"/>
+                <entry key="25" type="xstring" value="November_arrival_date_month"/>
+                <entry key="26" type="xstring" value="BB_meal"/>
+                <entry key="27" type="xstring" value="SC_meal"/>
+                <entry key="28" type="xstring" value="HB_meal"/>
+                <entry key="29" type="xstring" value="FB_meal"/>
+                <entry key="30" type="xstring" value="Undefined_meal"/>
+                <entry key="31" type="xstring" value="PRT_country"/>
+                <entry key="32" type="xstring" value="GBR_country"/>
+                <entry key="33" type="xstring" value="ESP_country"/>
+                <entry key="34" type="xstring" value="FRA_country"/>
+                <entry key="35" type="xstring" value="ITA_country"/>
+                <entry key="36" type="xstring" value="DEU_country"/>
+                <entry key="37" type="xstring" value="ISR_country"/>
+                <entry key="38" type="xstring" value="IND_country"/>
+                <entry key="39" type="xstring" value="AUT_country"/>
+                <entry key="40" type="xstring" value="NLD_country"/>
+                <entry key="41" type="xstring" value="DNK_country"/>
+                <entry key="42" type="xstring" value="BRA_country"/>
+                <entry key="43" type="xstring" value="CHN_country"/>
+                <entry key="44" type="xstring" value="BEL_country"/>
+                <entry key="45" type="xstring" value="IRL_country"/>
+                <entry key="46" type="xstring" value="NOR_country"/>
+                <entry key="47" type="xstring" value="CN_country"/>
+                <entry key="48" type="xstring" value="SVK_country"/>
+                <entry key="49" type="xstring" value="POL_country"/>
+                <entry key="50" type="xstring" value="CHE_country"/>
+                <entry key="51" type="xstring" value="AGO_country"/>
+                <entry key="52" type="xstring" value="KOR_country"/>
+                <entry key="53" type="xstring" value="ARG_country"/>
+                <entry key="54" type="xstring" value="SWE_country"/>
+                <entry key="55" type="xstring" value="FIN_country"/>
+                <entry key="56" type="xstring" value="USA_country"/>
+                <entry key="57" type="xstring" value="RUS_country"/>
+                <entry key="58" type="xstring" value="AUS_country"/>
+                <entry key="59" type="xstring" value="GRC_country"/>
+                <entry key="60" type="xstring" value="ROU_country"/>
+                <entry key="61" type="xstring" value="LVA_country"/>
+                <entry key="62" type="xstring" value="MAR_country"/>
+                <entry key="63" type="xstring" value="HUN_country"/>
+                <entry key="64" type="xstring" value="NZL_country"/>
+                <entry key="65" type="xstring" value="CMR_country"/>
+                <entry key="66" type="xstring" value="ECU_country"/>
+                <entry key="67" type="xstring" value="ZAF_country"/>
+                <entry key="68" type="xstring" value="TWN_country"/>
+                <entry key="69" type="xstring" value="TJK_country"/>
+                <entry key="70" type="xstring" value="EST_country"/>
+                <entry key="71" type="xstring" value="SRB_country"/>
+                <entry key="72" type="xstring" value="SVN_country"/>
+                <entry key="73" type="xstring" value="TUN_country"/>
+                <entry key="74" type="xstring" value="IRN_country"/>
+                <entry key="75" type="xstring" value="NGA_country"/>
+                <entry key="76" type="xstring" value="LUX_country"/>
+                <entry key="77" type="xstring" value="COL_country"/>
+                <entry key="78" type="xstring" value="TUR_country"/>
+                <entry key="79" type="xstring" value="IDN_country"/>
+                <entry key="80" type="xstring" value="LTU_country"/>
+                <entry key="81" type="xstring" value="CHL_country"/>
+                <entry key="82" type="xstring" value="EGY_country"/>
+                <entry key="83" type="xstring" value="MCO_country"/>
+                <entry key="84" type="xstring" value="MOZ_country"/>
+                <entry key="85" type="xstring" value="CZE_country"/>
+                <entry key="86" type="xstring" value="DZA_country"/>
+                <entry key="87" type="xstring" value="MWI_country"/>
+                <entry key="88" type="xstring" value="MAC_country"/>
+                <entry key="89" type="xstring" value="HRV_country"/>
+                <entry key="90" type="xstring" value="AND_country"/>
+                <entry key="91" type="xstring" value="MDV_country"/>
+                <entry key="92" type="xstring" value="THA_country"/>
+                <entry key="93" type="xstring" value="CYP_country"/>
+                <entry key="94" type="xstring" value="DOM_country"/>
+                <entry key="95" type="xstring" value="AZE_country"/>
+                <entry key="96" type="xstring" value="MUS_country"/>
+                <entry key="97" type="xstring" value="KWT_country"/>
+                <entry key="98" type="xstring" value="LBN_country"/>
+                <entry key="99" type="xstring" value="JPN_country"/>
+                <entry key="100" type="xstring" value="MYS_country"/>
+                <entry key="101" type="xstring" value="MLT_country"/>
+                <entry key="102" type="xstring" value="IRQ_country"/>
+                <entry key="103" type="xstring" value="UKR_country"/>
+                <entry key="104" type="xstring" value="PAN_country"/>
+                <entry key="105" type="xstring" value="ARM_country"/>
+                <entry key="106" type="xstring" value="MEX_country"/>
+                <entry key="107" type="xstring" value="PER_country"/>
+                <entry key="108" type="xstring" value="QAT_country"/>
+                <entry key="109" type="xstring" value="BGR_country"/>
+                <entry key="110" type="xstring" value="BIH_country"/>
+                <entry key="111" type="xstring" value="ALB_country"/>
+                <entry key="112" type="xstring" value="NPL_country"/>
+                <entry key="113" type="xstring" value="GGY_country"/>
+                <entry key="114" type="xstring" value="MNE_country"/>
+                <entry key="115" type="xstring" value="LBY_country"/>
+                <entry key="116" type="xstring" value="SUR_country"/>
+                <entry key="117" type="xstring" value="BLR_country"/>
+                <entry key="118" type="xstring" value="TA/TO_distribution_channel"/>
+                <entry key="119" type="xstring" value="Direct_distribution_channel"/>
+                <entry key="120" type="xstring" value="Corporate_distribution_channel"/>
+                <entry key="121" type="xstring" value="GDS_distribution_channel"/>
+                <entry key="122" type="xstring" value="A_reserved_room_type"/>
+                <entry key="123" type="xstring" value="G_reserved_room_type"/>
+                <entry key="124" type="xstring" value="D_reserved_room_type"/>
+                <entry key="125" type="xstring" value="B_reserved_room_type"/>
+                <entry key="126" type="xstring" value="E_reserved_room_type"/>
+                <entry key="127" type="xstring" value="F_reserved_room_type"/>
+                <entry key="128" type="xstring" value="H_reserved_room_type"/>
+                <entry key="129" type="xstring" value="C_reserved_room_type"/>
+                <entry key="130" type="xstring" value="A_assigned_room_type"/>
+                <entry key="131" type="xstring" value="G_assigned_room_type"/>
+                <entry key="132" type="xstring" value="D_assigned_room_type"/>
+                <entry key="133" type="xstring" value="B_assigned_room_type"/>
+                <entry key="134" type="xstring" value="E_assigned_room_type"/>
+                <entry key="135" type="xstring" value="F_assigned_room_type"/>
+                <entry key="136" type="xstring" value="H_assigned_room_type"/>
+                <entry key="137" type="xstring" value="K_assigned_room_type"/>
+                <entry key="138" type="xstring" value="C_assigned_room_type"/>
+                <entry key="139" type="xstring" value="I_assigned_room_type"/>
+                <entry key="140" type="xstring" value="No Deposit_deposit_type"/>
+                <entry key="141" type="xstring" value="Non Refund_deposit_type"/>
+                <entry key="142" type="xstring" value="Refundable_deposit_type"/>
+                <entry key="143" type="xstring" value="Transient-Party_customer_type"/>
+                <entry key="144" type="xstring" value="Transient_customer_type"/>
+                <entry key="145" type="xstring" value="Contract_customer_type"/>
+                <entry key="146" type="xstring" value="Group_customer_type"/>
+                <entry key="147" type="xstring" value="Check-Out_reservation_status"/>
+                <entry key="148" type="xstring" value="Canceled_reservation_status"/>
+                <entry key="149" type="xstring" value="No-Show_reservation_status"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+        <config key="targetReferenceCategory">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+            <config key="org.knime.core.data.def.StringCell">
+                <entry key="StringCell" type="xstring" value="1"/>
+            </config>
+        </config>
+        <entry key="useOrderFromTargetDomain" type="xboolean" value="false"/>
+        <entry key="useOrderFromFeatureDomain" type="xboolean" value="false"/>
+        <entry key="solver" type="xstring" value="SAG"/>
+        <entry key="maxEpoch" type="xint" value="100"/>
+        <entry key="performLazy" type="xboolean" value="true"/>
+        <entry key="epsilon" type="xdouble" value="1.0E-5"/>
+        <entry key="learningRateStrategy" type="xstring" value="Fixed"/>
+        <entry key="prior" type="xstring" value="Uniform"/>
+        <entry key="stepSize" type="xdouble" value="0.1"/>
+        <entry key="priorVariance" type="xdouble" value="0.1"/>
+        <entry key="inMemory" type="xboolean" value="true"/>
+        <entry key="seed" type="xstring" isnull="true" value=""/>
+        <entry key="chunkSize" type="xint" value="10000"/>
+        <entry key="calcCoefficientStatistics" type="xboolean" value="true"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Columns &quot;IRQ_country&quot;, &quot;MCO_country&quot;, &quot;ARM_country&quot;, &quot;AND_country&quot;, &quot;COL_country&quot;,  ... &lt;2 more&gt; have constant values  - will be ignored during training%%00010The algorithm did not reach convergence after the specified number of epochs. Setting the epoch limit higher might result in a better model.%%00010The covariance matrix could not be calculated because the observed fisher information matrix was singular. Did you properly normalize the numerical features?"/>
+    </config>
+    <entry key="factory" type="xstring" value="org.knime.base.node.mine.regression.logistic.learner4.LogRegLearnerNodeFactory4"/>
+    <entry key="node-name" type="xstring" value="Logistic Regression Learner"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.6.1.v202207182243"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.6.1.v202207182243"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Logistic Regression Learner"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="PMML document with version 4.2 and models: GeneralRegressionModel"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 141, Cols: 6"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
+        </config>
+        <config key="port_3">
+            <entry key="index" type="xint" value="3"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 2"/>
+            <entry key="port_dir_location" type="xstring" value="port_3"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="421f7e2d-40da-421e-820b-30c8a6086b28"/>
+    </config>
+</config>

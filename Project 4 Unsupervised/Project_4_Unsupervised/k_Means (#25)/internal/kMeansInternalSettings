@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+    <entry key="dimensions" type="xint" value="82"/>
+    <entry key="ignoredColumns" type="xint" value="79"/>
+    <config key="clusterCoverage">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="1106"/>
+        <entry key="1" type="xint" value="740"/>
+        <entry key="2" type="xint" value="137"/>
+    </config>
+    <config key="kMeansCluster0">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="40.770599099294785"/>
+        <entry key="1" type="xdouble" value="-73.97270448894217"/>
+        <entry key="2" type="xdouble" value="1.0"/>
+    </config>
+    <config key="kMeansCluster1">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="40.69147427520271"/>
+        <entry key="1" type="xdouble" value="-73.93935737547308"/>
+        <entry key="2" type="xdouble" value="3.472972972972973"/>
+    </config>
+    <config key="kMeansCluster2">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="40.84346396167884"/>
+        <entry key="1" type="xdouble" value="-73.90173480562038"/>
+        <entry key="2" type="xdouble" value="2.0"/>
+    </config>
+    <config key="FeatureNames">
+        <entry key="array-size" type="xint" value="82"/>
+        <entry key="0" type="xstring" value="Latitude"/>
+        <entry key="1" type="xstring" value="Longitude"/>
+        <entry key="2" type="xstring" value="BoroCode"/>
+        <entry key="3" type="xstring" isnull="true" value=""/>
+        <entry key="4" type="xstring" isnull="true" value=""/>
+        <entry key="5" type="xstring" isnull="true" value=""/>
+        <entry key="6" type="xstring" isnull="true" value=""/>
+        <entry key="7" type="xstring" isnull="true" value=""/>
+        <entry key="8" type="xstring" isnull="true" value=""/>
+        <entry key="9" type="xstring" isnull="true" value=""/>
+        <entry key="10" type="xstring" isnull="true" value=""/>
+        <entry key="11" type="xstring" isnull="true" value=""/>
+        <entry key="12" type="xstring" isnull="true" value=""/>
+        <entry key="13" type="xstring" isnull="true" value=""/>
+        <entry key="14" type="xstring" isnull="true" value=""/>
+        <entry key="15" type="xstring" isnull="true" value=""/>
+        <entry key="16" type="xstring" isnull="true" value=""/>
+        <entry key="17" type="xstring" isnull="true" value=""/>
+        <entry key="18" type="xstring" isnull="true" value=""/>
+        <entry key="19" type="xstring" isnull="true" value=""/>
+        <entry key="20" type="xstring" isnull="true" value=""/>
+        <entry key="21" type="xstring" isnull="true" value=""/>
+        <entry key="22" type="xstring" isnull="true" value=""/>
+        <entry key="23" type="xstring" isnull="true" value=""/>
+        <entry key="24" type="xstring" isnull="true" value=""/>
+        <entry key="25" type="xstring" isnull="true" value=""/>
+        <entry key="26" type="xstring" isnull="true" value=""/>
+        <entry key="27" type="xstring" isnull="true" value=""/>
+        <entry key="28" type="xstring" isnull="true" value=""/>
+        <entry key="29" type="xstring" isnull="true" value=""/>
+        <entry key="30" type="xstring" isnull="true" value=""/>
+        <entry key="31" type="xstring" isnull="true" value=""/>
+        <entry key="32" type="xstring" isnull="true" value=""/>
+        <entry key="33" type="xstring" isnull="true" value=""/>
+        <entry key="34" type="xstring" isnull="true" value=""/>
+        <entry key="35" type="xstring" isnull="true" value=""/>
+        <entry key="36" type="xstring" isnull="true" value=""/>
+        <entry key="37" type="xstring" isnull="true" value=""/>
+        <entry key="38" type="xstring" isnull="true" value=""/>
+        <entry key="39" type="xstring" isnull="true" value=""/>
+        <entry key="40" type="xstring" isnull="true" value=""/>
+        <entry key="41" type="xstring" isnull="true" value=""/>
+        <entry key="42" type="xstring" isnull="true" value=""/>
+        <entry key="43" type="xstring" isnull="true" value=""/>
+        <entry key="44" type="xstring" isnull="true" value=""/>
+        <entry key="45" type="xstring" isnull="true" value=""/>
+        <entry key="46" type="xstring" isnull="true" value=""/>
+        <entry key="47" type="xstring" isnull="true" value=""/>
+        <entry key="48" type="xstring" isnull="true" value=""/>
+        <entry key="49" type="xstring" isnull="true" value=""/>
+        <entry key="50" type="xstring" isnull="true" value=""/>
+        <entry key="51" type="xstring" isnull="true" value=""/>
+        <entry key="52" type="xstring" isnull="true" value=""/>
+        <entry key="53" type="xstring" isnull="true" value=""/>
+        <entry key="54" type="xstring" isnull="true" value=""/>
+        <entry key="55" type="xstring" isnull="true" value=""/>
+        <entry key="56" type="xstring" isnull="true" value=""/>
+        <entry key="57" type="xstring" isnull="true" value=""/>
+        <entry key="58" type="xstring" isnull="true" value=""/>
+        <entry key="59" type="xstring" isnull="true" value=""/>
+        <entry key="60" type="xstring" isnull="true" value=""/>
+        <entry key="61" type="xstring" isnull="true" value=""/>
+        <entry key="62" type="xstring" isnull="true" value=""/>
+        <entry key="63" type="xstring" isnull="true" value=""/>
+        <entry key="64" type="xstring" isnull="true" value=""/>
+        <entry key="65" type="xstring" isnull="true" value=""/>
+        <entry key="66" type="xstring" isnull="true" value=""/>
+        <entry key="67" type="xstring" isnull="true" value=""/>
+        <entry key="68" type="xstring" isnull="true" value=""/>
+        <entry key="69" type="xstring" isnull="true" value=""/>
+        <entry key="70" type="xstring" isnull="true" value=""/>
+        <entry key="71" type="xstring" isnull="true" value=""/>
+        <entry key="72" type="xstring" isnull="true" value=""/>
+        <entry key="73" type="xstring" isnull="true" value=""/>
+        <entry key="74" type="xstring" isnull="true" value=""/>
+        <entry key="75" type="xstring" isnull="true" value=""/>
+        <entry key="76" type="xstring" isnull="true" value=""/>
+        <entry key="77" type="xstring" isnull="true" value=""/>
+        <entry key="78" type="xstring" isnull="true" value=""/>
+        <entry key="79" type="xstring" isnull="true" value=""/>
+        <entry key="80" type="xstring" isnull="true" value=""/>
+        <entry key="81" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
